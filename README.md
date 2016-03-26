@@ -1,23 +1,15 @@
 <snippet>
   
 # GladiatorDayz
-TODO: Write a project description
+Petit programme evolutif qui me permet d'apprendre le c++
 ## Installation
-TODO: Describe the installation process
-## Usage
-TODO: Write usage instructions
-## Contributing
-1. Fork it!
-2. Create your feature branch: `git checkout -b my-new-feature`
-3. Commit your changes: `git commit -am 'Add some feature'`
-4. Push to the branch: `git push origin my-new-feature`
-5. Submit a pull request :D
-## History
-TODO: Write history
-## Credits
-TODO: Write credits
-## License
-TODO: Write license
+Pour tester mon programme télécharger le fichier GladiatorDayz qui contient le code source
+## Contribution
+
+## Versions
+Version 0.1
+## Contact
+jarod8405@gmail.com
 ]]></content>
   <tabTrigger>readme</tabTrigger>
 </snippet>
