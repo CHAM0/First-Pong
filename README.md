@@ -3,9 +3,7 @@
 # GladiatorDayz
 Petit programme evolutif qui me permet d'apprendre le c++
 ## Installation
-Pour tester mon programme télécharger le fichier GladiatorDayz qui contient le code source
-## Contribution
-
+Pour tester mon programme télécharger les fichiers sources
 ## Versions
 Version 0.1
 ## Contact
