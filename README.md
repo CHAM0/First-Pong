@@ -11,5 +11,5 @@ Version 0.1
 ## Contact
 jarod8405@gmail.com
 
-  <tabTrigger>readme</tabTrigger>
+  
 </snippet>
