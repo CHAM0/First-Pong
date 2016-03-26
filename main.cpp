@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <cstdio>
 #include <iostream>
 #include <string>
 #include "Character.hpp"
@@ -30,7 +30,7 @@ int main() {
     
     
     Character myGladiateur;  // Construction de l'objet MyGladiateur et initialisation de ses attributs
-    myGladiateur.addName(gladiatorName);  // Enregistrement du nom du gladiateur dans m_gladiatorName
+    myGladiateur.setName(gladiatorName);  // Enregistrement du nom du gladiateur dans m_gladiatorName
     
     
         int x = 0;  //Boucle pour choix de l'arme 
@@ -42,11 +42,11 @@ int main() {
         }
         
         if (x == 1) {
-            myGladiateur.newWeapon("Glaive",20);
+            myGladiateur.setNewWeapon("Glaive",20);
         }
         
         else {
-            myGladiateur.newWeapon("Masse",20);
+            myGladiateur.setNewWeapon("Masse",20);
         }
      
      std::cout<<"\n#################################################"<<std::endl;  
@@ -56,7 +56,7 @@ int main() {
     
     Character opponentGladiateur;  // Construction de l'objet opponentGladiateur et initialisation de ses attributs
     std::string opponentName ("Brutus Le Roxxor");  // Création du nom de l'adversaire
-    opponentGladiateur.addName(opponentName);  // Enregistrement du nom du gladiateur dans m_gladiatorName
+    opponentGladiateur.setName(opponentName);  // Enregistrement du nom du gladiateur dans m_gladiatorName
     
     myGladiateur.displayInformation();  // Affichage des informations concernant les combattants
     std::cout<<"\nContre\n"<<std::endl;
