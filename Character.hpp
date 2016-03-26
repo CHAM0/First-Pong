@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <cstdio>
 #include <iostream>
 #include <string>
 
@@ -10,27 +10,34 @@
 
 class Character {
     
+
+        
     public:
-    void takeDamage (int damage);                                       
-    void attack (Character &cible);
-    void drinkHealth (int potion);
-    void newWeapon (std::string newWeaponName, int newWeaponDamage);
-    bool isAlive ();
-    void addName (std::string gladiatorName);
+    
+    Character();
+    Character(std::string weaponName , int weaponDamage);   // Constructeur sur mesure 
+    ~Character();
+    
+    void takeDamage ( unsigned short int damage);                                       
+    void attack (Character &cible) const;
+    void drinkHealth (unsigned short int potion);
+    void setNewWeapon (const std::string newWeaponName, unsigned short int newWeaponDamage);
+    bool isAlive () const;
+    void setName (const std::string gladiatorName);
     void displayInformation () const;
     
     
-    Character(std::string weaponName , int weaponDamage);   // Constructeur sur mesure 
-    Character();
-    ~Character();
+    
+
     
   private:
-    int m_health;
-    int m_stamina;
-    std::string m_weaponName;
-    int m_weaponDamage;
-    std::string m_gladiatorName;
+    unsigned short int m_health = 100;
+    unsigned short int m_stamina = 100;
+    std::string m_weaponName = "noName";
+    unsigned short int m_weaponDamage = 0;
+    std::string m_gladiatorName = "noName";
 
 };
 
 #endif // CHARACTER_HPP
+
