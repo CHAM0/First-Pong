@@ -10,6 +10,6 @@ Pour tester mon programme télécharger le fichier GladiatorDayz qui contient le
 Version 0.1
 ## Contact
 jarod8405@gmail.com
-]]></content>
+
   <tabTrigger>readme</tabTrigger>
 </snippet>
