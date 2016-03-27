@@ -33,8 +33,8 @@ class Character {
   private:
     unsigned short int m_health = 100;
     unsigned short int m_stamina = 100;
-    std::string m_weaponName = "noName";
-    unsigned short int m_weaponDamage = 0;
+    std::string m_weaponName = "Baton en bois";
+    unsigned short int m_weaponDamage = 10;
     std::string m_gladiatorName = "noName";
 
 };
