@@ -6,9 +6,7 @@
 
 
 
-Character::Character() : m_health (100), m_stamina (100), m_weaponName ("Baton en bois"), m_weaponDamage (10) {   //constructeur par default
-  
-}
+Character::Character() = default;
 
 Character::Character(std::string weaponName, int weaponDamage) : m_health (100), m_stamina (100), m_weaponName (weaponName), m_weaponDamage (weaponDamage) {
     
@@ -68,6 +66,8 @@ void Character::displayInformation() const {
     
     
 }
+
+
 
 
 
