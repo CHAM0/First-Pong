@@ -9,7 +9,8 @@ Le but de ce programme est d'apprendre le c++ et non de développer un jeux.
 ## Installation
 Pour tester mon programme télécharger les fichiers sources
 ## Versions
-Version 0.1
+Version 0.2  // mise en place de l'ia - En cours 
+Version 0.1 // correction du code - Ok
 ## Contact
 https://openclassrooms.com/forum/sujet/petit-projet-evolutif
 
