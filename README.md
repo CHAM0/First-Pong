@@ -9,7 +9,9 @@ Le but de ce programme est d'apprendre le c++ et non de développer un jeux.
 ## Installation
 Pour tester mon programme télécharger les fichiers sources
 ## Versions
-Version 0.2  // mise en place de l'ia - En cours 
+Versions 0.3 // Prochainement ( developpement du jeux en 2d )
+
+Version 0.2  // mise en place de l'ia - Ok
 
 Version 0.1 // correction du code - Ok
 ## Contact
