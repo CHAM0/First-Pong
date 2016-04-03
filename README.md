@@ -1,21 +1,15 @@
 <snippet>
   
-# GladiatorDayz
-Petit programme evolutif qui me permet d'apprendre le c++
+# Mon Premier Pong
+Petit jeux qui me permet de m'exercer en c++
 ## Introduction
-C'est un petit jeux console qui permet de créer un gladiateur et de combattre contre l'ordinateur à travers différentes arènes .
-Pour le moment le jeux n'est pas encore jouable je doit configurer L'ia de l'ordinateur et le système d'interaction avec le joueur, puis après je verrais pour ajouter des arènes et optimiser le programme. 
-Le but de ce programme est d'apprendre le c++ et non de développer un jeux.
+Débutant le c++ depuis maitenant 3 semaines c'est mon premier jeux 2D réalisé à l'aide de la sfml qui est maintenant jouable , cependant il n'est pas du tout terminé et je compte bien rajouter des fonctionnalités, améliorer et corriger ce petit jeux.
 ## Installation
-Pas de version jouable pour le moment
+Télécharger le Fichier Release et lancer l'executable ou télécharger le code source
 ## Versions
-Versions 1.0 // Prochainement ( developpement du jeux en 2d )
-
-Version 0.2  // mise en place de l'ia - Ok
-
-Version 0.1 // correction du code - Ok
+Versions 1.0 // Jeux fonctionnel avec le systèm de base 
 ## Contact
-https://openclassrooms.com/forum/sujet/petit-projet-evolutif
+https://openclassrooms.com/forum/sujet/quelques-questions-jeux-c
 
   
 </snippet>
