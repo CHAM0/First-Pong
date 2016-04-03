@@ -7,7 +7,7 @@ Débutant le c++ depuis maintenant 3 semaines c'est mon premier jeux 2D réalis�
 ## Installation
 -Télécharger le Fichier Release et lancer l'executable 
 ou 
--télécharger le code source ( attention aux dll )
+télécharger le code source ( attention aux dll )
 ## Versions
 Versions 1.0 // Jeux fonctionnel avec le systèm de base 
 ## Contact
